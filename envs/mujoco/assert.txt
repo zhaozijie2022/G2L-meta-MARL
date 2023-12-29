@@ -1,0 +1,41 @@
+2-Agent Ant
+env_args.scenario="Ant-v2"
+env_args.agent_conf="2x4"
+env_args.agent_obsk=1
+
+2-Agent Ant Diag
+env_args.scenario="Ant-v2"
+env_args.agent_conf="2x4d"
+env_args.agent_obsk=1
+
+4-Agent Ant
+env_args.scenario="Ant-v2"
+env_args.agent_conf="4x2"
+env_args.agent_obsk=1
+
+
+2-Agent HalfCheetah
+env_args.scenario="HalfCheetah-v2"
+env_args.agent_conf="2x3"
+env_args.agent_obsk=1
+
+6-Agent HalfCheetah
+env_args.scenario="HalfCheetah-v2"
+env_args.agent_conf="6x1"
+env_args.agent_obsk=1
+
+
+3-Agent Hopper
+env_args.scenario="Hopper-v2"
+env_args.agent_conf="3x1"
+env_args.agent_obsk=1
+env_args = {"scenario": "Hopper-v2",
+             "agent_conf": "3x1",
+             "agent_obsk": 1,
+             "episode_limit": 1000}
+
+
+2-Agent Walker
+env_args.scenario="Walker2d-v2"
+env_args.agent_conf="2x3"
+env_args.agent_obsk=1
